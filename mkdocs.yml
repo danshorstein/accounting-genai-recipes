@@ -1,0 +1,13 @@
+site_name: GenAI Accounting Recipes
+repo_url: https://github.com/<your-username>/genai-accounting-recipes
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - search.highlight
+    - search.suggest
+nav:
+  - Home: index.md
+  - Recipes:
+      - Expense Categorization: recipes/01-expense-categorization/recipe.md
+      - MD&A Generator: recipes/02-mdna-generator/recipe.md
