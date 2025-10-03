@@ -18,19 +18,19 @@ outputs:
   - "Draft client questions covering required user controls"
   - "User-control assessment memo"
   - "Residual risk memo"
-video_url: https://youtu.be/<your-demo>
+video_url: https://youtu.be/w9rqjeFXxSY
 tags: [audit, third-party-risk, automation]
 license: CC-BY-4.0
 ---
 
 ## Problem
-Auditors and internal finance leaders rely on third-party service providers to process sensitive financial data, yet SOC 2 Type 2 reports are lengthy and time-consuming to review. Teams must extract control gaps, determine audit impact, verify assumed user controls, and document residual risks to decide whether the provider can be trusted. Manual review is slow, error-prone, and often deferred despite being critical to external audits and internal risk management.
+Auditors and internal finance teams rely on third-party service providers to process sensitive financial data, and rely on SOC 2 Type 2 reports to provide critical information about controls design and effectiveness at those organizations. However, the reports are lengthy and time-consuming to review, and important information can be missed. In addition to analyzing the results of the testing, the user controls are required to be in place at the end user organization in order for the controls identiifed in the SOC 2 report to be adequate. Teams therefore must identify and extract control gaps both from testing failures and from limits in testing scope, determine audit impact, verify assumed user controls, and document residual risks to determine what remaining testing and risk remain. Manual review of the SOC 2 is slow, error-prone, and sometimes prioritized below other critical tasks despite being a very important part of the risk assessment and testing process.
 
 ## Solution (at a glance)
-1. Upload the SOC 2 report, supporting user-control documentation, and the firm’s SOC 2 review checklist to the custom GPT workspace.
-2. Generate a dashboard-style risk table highlighting findings, control gaps, and potential audit impacts.
-3. Produce client-ready questions that cover all user control considerations needing validation.
-4. Ingest client responses and evaluate whether user controls operate effectively; identify residual risk and recommend next steps.
+1. Upload a SOC 2 report, supporting user-control documentation, and the if applicable, a SOC 2 review checklist to a custom GPT workspace.
+2. Generate a risk table that identifies findings, control gaps, and potential audit impacts.
+3. Produce questions that cover all user control considerations needing validation.
+4. Ingest client responses and evaluate whether user controls are designed effectively, and consider testing for effectiveness if necessary; identify residual risk and recommend next steps.
 5. Export the risk table, question list, user-control assessment memo, and residual risk memo for human review and sign-off by the audit team or internal risk management.
 
 ## Prompt
